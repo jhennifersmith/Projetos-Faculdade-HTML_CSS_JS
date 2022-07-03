@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+}
+
+#Cabecalho{
+    background-image: url(../img/bananafish.jpg);
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+    #Cabecalho h1, #Cabecalho h3{
+        margin: 0;
+    }
+
+    #Cabecalho h1{
+        font-size: 3em;
+        margin-top: 0.5em;
+        text-shadow: 1px 2px steelblue;
+    }
+
+    #Cabecalho h3{
+        color: lightsteelblue;
+        margin-bottom: 0.2em;
+    }
+
+#Menu{
+    text-align: center;
+    padding: 0.7em;
+}
+
+    #Menu a{
+        text-decoration: none;
+        color: steelblue;
+        font-weight: bold;
+        font-size: 1.3em;
+        margin: 0.25em;
+    }
+
+    #Menu a:hover{
+        color: lightsteelblue;
+    }
+
+#Apresentacao{
+    display: flex;
+    text-align: center;
+    margin: 2em auto;
+    max-width: 1800px;
+}
+
+    #Apresentacao .content{
+        padding: 1em;
+        background-color: lightyellow;
+        opacity: 80%;
+        margin: 0.5em;
+        border-radius: 0.5em;
+    }
+
+@media (max-width: 700px){
+    #Apresentacao{
+        display: block;
+    }
+}
+
+#Depoimentos{
+    display: flex;
+    text-align: center;
+    margin: 2em auto;
+    max-width: 1800px;
+}
+
+    #Depoimentos .comentarios{
+        padding: 1em;
+        opacity: 80%;
+    }
+
+    #Depoimentos .comentarios img{
+        width: 5em;
+    }
+
+#Informacoes{
+    text-align: center;
+    margin-left: 5em;
+    margin-right: 5em;
+}
+
+#Rodape{
+    text-align: center;
+    opacity: 70%;
+    font-size: 0.8em;
+}
